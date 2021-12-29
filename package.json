@@ -53,8 +53,6 @@
     "build:esm": "tsc",
     "format": "npm run prettier -w .",
     "lint": "eslint .",
-    "prepare": "npm run build",
-    "pregenerate": "npm run build",
     "test": "mocha --recursive --timeout 30000",
     "test:coverage": "nyc --reporter=lcov mocha --recursive --timeout 30000 && codecov",
     "version": "npm run build"
