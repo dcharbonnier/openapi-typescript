@@ -4,6 +4,7 @@
     "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
     "lib": ["ES2018"],
     "moduleResolution": "Node",
     "noImplicitReturns": true,
